@@ -1,0 +1,16 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: install webserver on only ubuntu node 
+    apt: 
+     name: apache2
+     state: present
+     when: ansible_os_family=="ubuntu"
+  - name: install webserver on  only RedHat  node
+    service :
+     name: httpd
+     state: stared
+     when: ansible_os_family=="RedHat"
+
+
