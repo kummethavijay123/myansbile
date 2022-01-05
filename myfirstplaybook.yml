@@ -16,7 +16,7 @@
 
 
   - name: i want to install webserver on  only RedHat  node
-    service :
+    yum:
      name: httpd
      state: present
     when: ansible_os_family=="RedHat"
@@ -24,7 +24,7 @@
   
   
   - name: i want to start install webserver on  only RedHat  node
-    service :
+    service:
      name: httpd
      state: started
     when: ansible_os_family=="RedHat"
