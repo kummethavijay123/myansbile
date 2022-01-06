@@ -15,4 +15,4 @@
 
 [mywebserver:vars]
 mywebserverpackforubuntu=apache2
-mywebserverpackforredhat=httpddd
+mywebserverpackforredhat=httpd
