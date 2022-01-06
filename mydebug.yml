@@ -3,4 +3,4 @@
   become: yes
   tasks:
    - name: i want to execute direct linux command
-     command: hostnmae-f
+     command: hostname -f
