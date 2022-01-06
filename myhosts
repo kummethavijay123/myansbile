@@ -14,5 +14,5 @@
 172.31.13.39
 
 [mywebserver:vars]
-mywebserverpackforubuntu=nginxinc.nginx_coree
+mywebserverpackforubuntu=nginxinc.nginx_core
 mywebserverpackforredhat=httpd
