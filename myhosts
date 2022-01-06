@@ -1,14 +1,14 @@
-[myweb server]
+[mywebserver]
 172.31.8.226
 172.31.13.39
 
-[mydb server]
+[mydbserver]
 172.31.14.40
 172.31.13.39
 
-[myubuntu server]
+[myubuntuserver]
 160.31.14.40
 172.31.8.226
 
-[myredhat server]
+[myredhatserver]
 172.31.13.39
