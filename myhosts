@@ -14,5 +14,5 @@
 172.31.13.39
 
 [mywebserver:vars]
-mywebserverpackforubuntu=start nginx
+mywebserverpackforubuntu=apache2
 mywebserverpackforredhat=httpd
