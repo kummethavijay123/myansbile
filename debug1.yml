@@ -11,11 +11,11 @@
     apt:
      name: git
      state: present
-    when: myfirsttaskresult.stderr ==""
+    when: myfirsttaskresult.stderr !=""
 
   - name: install wget
     apt:
      name: wget
      state: present
-    when: myfirsttaskresult.stderr !=""
+    when: myfirsttaskresult.stderr ==""
     
