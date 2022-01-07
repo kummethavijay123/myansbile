@@ -6,7 +6,7 @@
     apt:
      name: git
      state: present
-    tags: git
+    tags: mygit
 
 
 
@@ -14,11 +14,11 @@
     apt:
      name: wget
      state: present
-    tags: wget
+    tags: mywget
 
 
   - name: install tree
     apt:
      name: tree
      state: present
-    tags: wget 
+    tags: mywget 
