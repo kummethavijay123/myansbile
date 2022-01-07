@@ -1,0 +1,12 @@
+---
+- hosts: 172.31.8.226
+  become: yes
+  tasks:
+  - name: i want execute direct linux command
+    command: host -f
+    register: myfirsttaskresult
+
+
+  - name: i want display first task result 
+    debug:
+      msg: "{{myfirsttaskresult}}"
