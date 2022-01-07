@@ -12,4 +12,4 @@
   - name: i want to copy indexfile into node side
     ansible.builtin.template:
        src: vijay.j2
-       dest: var/www/html/vijay.html
+       dest: var/www/html/index.html
