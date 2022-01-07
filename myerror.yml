@@ -11,7 +11,7 @@
     apt:
      name: wgettt
      state: present
-
+    ignore: true
   - name: install tree
     apt:
      name: tree
