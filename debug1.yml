@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - name: i want execute direct linux command
-    command: host -f
+    command: hostname -f
     register: myfirsttaskresult
 
 
