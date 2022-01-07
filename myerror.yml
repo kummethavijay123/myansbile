@@ -9,7 +9,7 @@
   
   - name: install wget
     apt:
-     name: wgettt
+     name: wget
      state: present
     ignore_errors: yes
 
