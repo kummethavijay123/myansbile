@@ -11,7 +11,7 @@
     apt:
      name: wgettt
      state: present
-    ignore_errors: true
+    ignore_unreachable: yes
 
   - name: install tree
     apt:
