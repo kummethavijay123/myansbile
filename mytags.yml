@@ -21,4 +21,4 @@
     apt:
      name: tree
      state: present
-    tags: mywget 
+    tags: mytree
