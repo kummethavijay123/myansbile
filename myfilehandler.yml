@@ -22,5 +22,5 @@
 
   - name: Create directory
   file:
-    path: /home/ubuntu/myfolder
+    path: /home/ubuntu/myfolder2
     state: directory
