@@ -13,7 +13,9 @@
     ansible.builtin.template:
        src: vijay.j2
        dest: /var/www/html/index.html
-  
+    notify:
+      - restsrtwebserver
+      
   - name: Download remote files
     get_url:
      url: https://get.jenkins.io/war-stable/2.319.1/jenkins.war
@@ -24,7 +26,7 @@
     file:
      path: /home/ubuntu/myfolder2
      state: directory
-     
+
   handlers:
   - name: restartwebserver
     service:
