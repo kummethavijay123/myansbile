@@ -24,7 +24,7 @@
     file:
      path: /home/ubuntu/myfolder2
      state: directory
-  
+  handlers:
   - name: restartwebserver
     service:
        name: apache2
