@@ -21,6 +21,6 @@
      force_basic_auth: yes
 
   - name: i want to Create directory
-  file:
-    path: /home/ubuntu/myfolder2
-    state: directory
+    file:
+     path: /home/ubuntu/myfolder2
+     state: directory
