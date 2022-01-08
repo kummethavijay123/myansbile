@@ -29,5 +29,6 @@
 
   handlers:
   - name: restartwebserver
-    debug:
-         msg: "{{ansible_os_family}}"
+    service:
+       name: apache2
+       state: restarted
